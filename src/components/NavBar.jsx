@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaXmark } from "react-icons/fa6";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
 
@@ -18,7 +18,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-menu" onClick={handleToggleMenu}>
         {showMenu ? (
-          <FaXmark className="menu-icon" />
+          <FaTimes className="menu-icon" />
         ) : (
           <FaBars className="menu-icon" />
         )}

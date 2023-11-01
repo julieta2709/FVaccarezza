@@ -1,14 +1,14 @@
-import "./Styles/App.css";
+import "../src/styles/App.css";
 import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
-  <div className="App-container">
-  <Header/>
   return (
-   <h1>FVaccarezza</h1>
-      
-  )
-  </div>
+    <div className="App-container">
+      <Header />
+      <Home/>
+    </div>
+  );
 }
 
-export default App
+export default App;
