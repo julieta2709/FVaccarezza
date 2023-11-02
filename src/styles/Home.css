@@ -1,13 +1,13 @@
 .Home-container {
-  width: 1915px;
   margin-top: 121px;
 }
 .HomePF-Container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
-.RedCircle-container{
+.RedCircle-container {
   display: flex;
   justify-content: space-around;
 }
@@ -21,29 +21,30 @@
 } */
 h1 {
   font-family: "PP-Hatton";
+  font-size: 150px;
   font-weight: 700;
-  font-size: 1em;
   margin: 0 60px 0 60px;
 }
 .red-circle {
-    width: 5%;
-    height: 5%;
-  }
-  .year {
-    font-family: "Magilio";
-    font-size: 1em;
-    font-weight: 400;
-    color: #e52421;
-    position: relative;
-  }
+  width: 71px;
+  height: 71px;
+}
+.year {
+  font-family: "Magilio";
+  font-size: 600px;
+  font-weight: 400;
+  color: #e52421;
+  position: relative;
+}
 .Home-FV {
   font-family: "Montserrat";
+  font-size: 15px;
   font-weight: 700;
   font-size: 1em;
   text-align: end;
 }
 /*mobile*/
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .Home-container {
     width: 5%;
   }
@@ -56,9 +57,9 @@ h1 {
   .Home-FV {
     font-size: 1em;
   }
-}
+} */
 /*Tablet*/
-@media screen and (min-width: 576px) and (max-width: 768px) {
+/* @media screen and (min-width: 576px) and (max-width: 768px) {
   .Home-container {
     width: 3.17%;
   }
@@ -71,9 +72,9 @@ h1 {
   .Home-FV {
     font-size: 1em;
   }
-}
+} */
 /*PC escritorio*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
   .Home-container {
     width: 11.98%;
   }
@@ -86,13 +87,13 @@ h1 {
   .Home-FV {
     font-size: 1.5em;
   }
-}
+} */
 /*PC Grande*/
-@media screen and (min-width: 1024px) {
-  /* .Home-container {
+/* @media screen and (min-width: 1024px) { */
+/* .Home-container {
     width: 7.35%;
   } */
-  .PF-container h1 {
+/*   .PF-container h1 {
     font-size: 2.5em;
   }
   .red-circle {
@@ -101,4 +102,4 @@ h1 {
   .Home-FV {
     font-size: 1.5em;
   }
-}
+} */
