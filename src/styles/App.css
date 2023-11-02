@@ -11,6 +11,7 @@ a {
 }
 body {
   background-color: #f8f4ef;
+  width: 1920px
 }
 @font-face {
   font-family: "Montserrat";

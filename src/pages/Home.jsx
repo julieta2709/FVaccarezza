@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div className="Home-container">
       <div className="HomePF-Container">
-        <div className="PF-container">
+        <div className="RedCircle-container">
           <RedCircle />
-          <h1>PORTFOLIO.</h1>
           <RedCircle />
         </div>
+        <h1>PORTFOLIO.</h1>
         <p className="year">2023</p>
       </div>
       <h2 className="Home-FV">FEDERICO VACCAREZZA</h2>
