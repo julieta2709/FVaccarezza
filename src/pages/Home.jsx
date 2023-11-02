@@ -5,11 +5,13 @@ import "../styles/Home.css";
 const Home = () => {
   return (
     <div className="Home-container">
-      <h1>PORTFOLIO.</h1>
-      <div className="Home2023">
-        <RedCircle />
-        <p className="2023">2023</p>
-        <RedCircle />
+      <div className="HomePF-Container">
+        <div className="PF-container">
+          <RedCircle />
+          <h1>PORTFOLIO.</h1>
+          <RedCircle />
+        </div>
+        <p className="year">2023</p>
       </div>
       <h2 className="Home-FV">FEDERICO VACCAREZZA</h2>
     </div>

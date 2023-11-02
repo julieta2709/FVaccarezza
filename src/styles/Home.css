@@ -1,8 +1,100 @@
-.Home2023 {
-  display: flex;
+.Home-container {
+  width: 3390px;
+  margin-top: 121px;
 }
-.circle {
-  width: 71px;
-  height: 71px;
-  fill: #e52421;
+.HomePF-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PF-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-family: "PP-Hatton";
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0 60px 0 60px;
+}
+.red-circle {
+    width: 5%;
+    height: 5%;
+  }
+  .year {
+    font-family: "Magilio";
+    font-size: 1em;
+    font-weight: 400;
+    color: #e52421;
+    position: relative;
+  }
+.Home-FV {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1em;
+  text-align: end;
+}
+/*mobile*/
+@media screen and (max-width: 576px) {
+  .Home-container {
+    width: 5%;
+  }
+  .PF-container h1 {
+    font-size: 1.5em;
+  }
+  .red-circle {
+    width: 10%;
+  }
+  .Home-FV {
+    font-size: 1em;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .Home-container {
+    width: 3.17%;
+  }
+  .PF-container h1 {
+    font-size: 2em;
+  }
+  .red-circle {
+    width: 7%;
+  }
+  .Home-FV {
+    font-size: 1em;
+  }
+}
+/*PC escritorio*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .Home-container {
+    width: 11.98%;
+  }
+  .PF-container h1 {
+    font-size: 2em;
+  }
+  .red-circle {
+    width: 5%;
+  }
+  .Home-FV {
+    font-size: 1.5em;
+  }
+}
+/*PC Grande*/
+@media screen and (min-width: 1024px) {
+  .Home-container {
+    width: 7.35%;
+  }
+  .PF-container h1 {
+    font-size: 2.5em;
+  }
+  .red-circle {
+    width: 100%;
+  }
+  .Home-FV {
+    font-size: 1.5em;
+  }
 }
