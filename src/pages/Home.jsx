@@ -1,5 +1,5 @@
 import React from "react";
-import Circle from "../assets/circle.jsx";
+import RedCircle from "../assets/img/RedCircle";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -7,9 +7,9 @@ const Home = () => {
     <div className="Home-container">
       <h1>PORTFOLIO.</h1>
       <div className="Home2023">
-        <Circle className="circle" />
+        <RedCircle />
         <p className="2023">2023</p>
-        <Circle className="circle" />
+        <RedCircle />
       </div>
       <h2 className="Home-FV">FEDERICO VACCAREZZA</h2>
     </div>

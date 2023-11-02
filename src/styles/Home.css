@@ -1,8 +1,8 @@
 .Home2023 {
-    display: flex;
+  display: flex;
 }
 .circle {
-    width: 71px;
-    height: 71px;
- color: #E52421;
+  width: 71px;
+  height: 71px;
+  fill: #e52421;
 }
