@@ -6,9 +6,11 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div className="App-container">
+      <div className="overlay">
       <Header />
       <Home />
       <AboutMe />
+      </div>
     </div>
   );
 }

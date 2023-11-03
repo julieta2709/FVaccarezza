@@ -1,5 +1,5 @@
-import FV from "../assets/img/FV";
-import FVPic from "../assets/img/FVPic";
+import React from "react";
+import FVpic from "../assets/img/FVpic.png";
 import ButtonUp from "../components/ButtonUp";
 
 const AboutMe = () => {
@@ -9,8 +9,7 @@ const AboutMe = () => {
       <h2>FEDERICO VACCAREZZA</h2>
       <p>AND I AM A GRAPHIC DESIGNER.</p>
       <ButtonUp />
-      <FV/>
-      <FVPic/>
+      <img src={FVpic} alt="Federico-Vaccarezza" />
     </div>
   );
 };
