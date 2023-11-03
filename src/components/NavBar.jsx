@@ -13,7 +13,7 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="logo-container">
         <Link to="/">
-         <span className="logo">PF 2023 FV</span>
+         <span className="logo">PF 2024 FV</span>
         </Link>
       </div>
       <div className="navbar-menu" onClick={handleToggleMenu}>

@@ -8,7 +8,7 @@ const Home = () => {
       <div className="HomePF-Container">
         <div className="RedCircle-container">
           <RedCircle />
-          <p className="year">2023</p>
+          <p className="year">2024</p>
           <RedCircle />
         </div>
         <h1>PORTFOLIO.</h1>
