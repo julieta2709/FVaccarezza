@@ -4,7 +4,8 @@
   font-size: 15px;
   margin-top: 44px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .logo {
   font-style: italic;
@@ -18,7 +19,7 @@
 }
 .nav-menu {
   display: flex;
-  margin-left: 200px;
+  margin-left: 350px;
 }
 .nav-link {
   color: #3a3a39;

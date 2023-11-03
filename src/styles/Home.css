@@ -1,33 +1,32 @@
 .Home-container {
   margin-top: 121px;
+  position: relative;
 }
 .HomePF-Container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
   flex-direction: column;
+  margin-right: 50px;
 }
 .RedCircle-container {
   display: flex;
-  justify-content: space-around;
+  align-items: baseline;
+  justify-content: center;
+  height: 513px;
 }
-/* .PF-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-} */
 h1 {
   font-family: "PP-Hatton";
   font-size: 150px;
   font-weight: 700;
-  margin: 0 60px 0 60px;
+  position: absolute;
+  top: 52%;
+  left: 63%;
+  transform: translate(-50%, -50%);
 }
 .red-circle {
   width: 71px;
   height: 71px;
+  align-self: center;
 }
 .year {
   font-family: "Magilio";
@@ -40,8 +39,9 @@ h1 {
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 700;
-  font-size: 1em;
-  text-align: end;
+  align-self: self-end;
+  margin-right: 125px;
+  margin-top: 20px;
 }
 /*mobile*/
 /* @media screen and (max-width: 576px) {

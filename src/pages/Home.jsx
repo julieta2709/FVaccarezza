@@ -8,12 +8,12 @@ const Home = () => {
       <div className="HomePF-Container">
         <div className="RedCircle-container">
           <RedCircle />
+          <p className="year">2023</p>
           <RedCircle />
         </div>
         <h1>PORTFOLIO.</h1>
-        <p className="year">2023</p>
+        <h2 className="Home-FV">FEDERICO VACCAREZZA</h2>
       </div>
-      <h2 className="Home-FV">FEDERICO VACCAREZZA</h2>
     </div>
   );
 };
