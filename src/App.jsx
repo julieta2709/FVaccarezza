@@ -1,3 +1,4 @@
+import ButtonUp from "../src//components//ButtonUp";
 import "../src/styles/App.css";
 import Header from "./components/Header";
 import AboutMe from "./pages/AboutMe";
@@ -14,6 +15,7 @@ function App() {
         <Work />
         <Contact />
       </div>
+      <ButtonUp/>
       <div className="overlay"></div>
     </div>
   );

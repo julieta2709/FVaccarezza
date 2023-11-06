@@ -1,9 +1,73 @@
-/* Rectangle 
-
-position: absolute;
-left: 48.51%;
-right: 34.14%;
-top: 1.98%;
-bottom: 97.23%;
-
-background: url(.jpg);*/
+/*Fonts styles*/
+.Aboutme-intro,
+.Aboutme-name,
+.Aboutme-title,
+.Aboutme-subtitle,
+.Aboutme-,
+.Aboutme-contactTittle,
+.Aboutme-contactMail {
+  color: #3a3a39;
+}
+.Aboutme-intro,
+.Aboutme-name,
+.Aboutme-title,
+.Aboutme-contactTittle,
+.Aboutme-contactMail {
+  font-family: PP Hatton;
+  font-style: normal;
+  line-height: normal;
+}
+.Aboutme-intro {
+  font-size: 50px;
+  font-weight: 200;
+}
+.Aboutme-name {
+  font-size: 100px;
+  font-weight: 700;
+}
+.Aboutme-number,
+.Aboutme-contactNumber {
+  color: #e52421;
+  font-family: Magilio;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Aboutme-number {
+  font-size: 300px;
+}
+.Aboutme-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+.Aboutme-subtitle,
+.Aboutme-text,
+.Aboutme-subtitle2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: normal;
+}
+.Aboutme-subtitle {
+  font-weight: 700;
+  font-style: normal;
+}
+.Aboutme-text {
+  font-weight: 300;
+  font-style: normal;
+}
+.Aboutme-subtitle2 {
+  font-style: italic;
+  font-weight: 600;
+}
+.Aboutme-contactTittle {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -5.2px;
+}
+.Aboutme-contactNumber {
+  font-size: 70px;
+}
+.Aboutme-contactMail {
+  font-size: 40px;
+  font-weight: 200;
+}
