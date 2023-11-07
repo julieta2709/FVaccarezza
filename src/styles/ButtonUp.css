@@ -1,16 +1,21 @@
-.ButtonUp-container {
+ .ButtonUp-container {
   position: fixed;
   right: 20px;
   bottom: 20px;
   border-radius: 50%;
+  cursor: pointer;
+  
+} 
+
+.button-up {
+  transition: fill 0.3s ease;
+  z-index: 1;
+  fill:#F8F5EF;
 }
-.ButtonUp {
-    border-radius: 50%;
-    cursor: pointer;
-    width: 75px;
-    height: 75px;
-    transition: background-color 0.3s ease;
+
+
+.button-up:hover {
+  fill: #e52421;
 }
-#button-up-icon:hover {
-    fill: #E52421;
-  }
+
+
