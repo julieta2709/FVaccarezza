@@ -14,11 +14,10 @@ function App() {
         <AboutMe />
         <Work />
         <Contact />
+        <ButtonUp/>
       </div>
-      <ButtonUp/>
       <div className="overlay"></div>
     </div>
   );
 }
-
 export default App;

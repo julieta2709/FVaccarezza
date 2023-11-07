@@ -13,11 +13,12 @@
 .Aboutme-title,
 .Aboutme-contactTittle,
 .Aboutme-contactMail {
-  font-family: PP Hatton;
+  font-family: PP-Hatton;
   font-style: normal;
   line-height: normal;
 }
 .Aboutme-intro {
+  font-family: PP-Hatton-Ultralight;
   font-size: 50px;
   font-weight: 200;
 }
@@ -70,4 +71,30 @@
 .Aboutme-contactMail {
   font-size: 40px;
   font-weight: 200;
+}
+/*flexbox styles*/
+.Aboutme-maininfo {
+  display: flex;
+  justify-content: space-around;
+}
+.Aboutme-maininfoText {
+  display: flex;
+  flex-direction: column;
+  width: 766px;
+}
+.Aboutme-titlecontainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 330px;
+}
+.Aboutme-number {
+  position: relative;
+  z-index: 1;
+}
+.Aboutme-title {
+  position: absolute;
+   z-index: 2;
+   top: 60px;
+  left: 34px;
 }
