@@ -1,12 +1,15 @@
 .Home-container {
   margin-top: 121px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .HomePF-Container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-right: 50px;
+  width: 1391px;
+  height: 513px;
 }
 .RedCircle-container {
   display: flex;

@@ -1,3 +1,7 @@
+.Header-container {
+z-index: 50;
+position: relative;
+}
 .navbar {
   font-family: "Montserrat";
   font-weight: 700;
@@ -6,6 +10,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.logo-container {
+  width: 87px;
 }
 .logo {
   font-style: italic;

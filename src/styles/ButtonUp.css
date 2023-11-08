@@ -1,11 +1,11 @@
 .ButtonUp-container {
-  position: fixed;
   cursor: pointer;
   fill: none;
   background-color: transparent;
   border: none;
-  bottom: 20px;
-  right: 20px;
+  position:fixed;
+  z-index: 999;
+  float: right;
 }
 .button-up {
   fill: none;
