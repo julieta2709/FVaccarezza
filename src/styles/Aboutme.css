@@ -75,7 +75,7 @@
 .Aboutme-container {
   display: flex;
   flex-direction: column;
-  margin-left: 192px;
+  /* margin-left: 192px; */
   position: relative;
   margin-top: 200px;
 }
@@ -124,7 +124,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   margin-bottom: 250px;
-  width: 1266 px;
+  width: 1266px;
   height: 330px;
 }
 .Aboutme-description {

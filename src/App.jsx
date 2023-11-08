@@ -20,7 +20,7 @@ function App() {
           <Route path={"/Photography"} element={<Photography />} />
         </Routes>
       </div>
-      <div className="overlay"></div>
+      {/* <div className="overlay"></div> */}
     </div>
   );
 }
