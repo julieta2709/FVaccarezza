@@ -11,28 +11,28 @@
   font-weight: bold;
   font-size: 0.95em;
   width: 65%;
-  /* margin-top: 44px; */
   display: flex;
   align-items: center;
   margin: 1.5% 0 1.5% 3%;
 }
 .logo-container {
-  width: 8%;
+  width: 11%;
 }
 .logo {
   font-style: italic;
   color: #e52421;
-  width: 7%;
 }
 .navbar-menu {
   display: none;
 }
 .nav-item {
-  margin-right: 100px;
+  margin-right: 8%;
 }
 .nav-menu {
   display: flex;
-  margin-left: 350px;
+  justify-content: center;
+  margin-left: 29%;
+  width: 100%;
 }
 .nav-link {
   color: #3a3a39;
