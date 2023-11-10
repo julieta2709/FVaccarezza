@@ -8,11 +8,17 @@ const Home = () => {
       <div className="HomePF-Container">
         <div className="RedCircle-container">
           <RedCircle />
-          <p className="year">2024</p>
           <RedCircle />
         </div>
+        <div className="year-container">
+        <p className="year">2024</p>
+        </div>
+        <div className="portfolio-container">
         <h1>PORTFOLIO.</h1>
+        </div>
+        <div className="fv-container">
         <h2 className="Home-FV">FEDERICO VACCAREZZA</h2>
+        </div>
       </div>
     </div>
   );

@@ -1,49 +1,67 @@
+/*layout*/
 .Home-container {
-  margin-top: 8%;
   position: relative;
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 .HomePF-Container {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  width:100%;
+  height: 78%;
+  width: 72.5%;
 }
 .RedCircle-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 65%;
-  width: 70%;
-}
-h1 {
-  font-family: "PP-Hatton";
-  font-size: 9.4em;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: normal;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  top: 52%;
 }
 .red-circle {
-  width: 71px;
-  height: 71px;
+  width: 5.11%;
+  height: 47.42%;
 }
+.year-container {
+  height: 79.31%;
+  width: 85.7%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+}
+.fv-container {
+  display: flex;
+  width: 82%;
+  justify-content: flex-end;
+}
+/*fonts styles*/
 .year {
   font-family: "Magilio";
   font-size: 37.5em;
   font-weight: normal;
   color: #e52421;
   position: relative;
-  line-height: 95%;
+  line-height: normal;
+  margin-bottom: auto;
+}
+h1 {
+  font-family: "PP-Hatton";
+  font-size: 9.38em;
+  font-weight: bold;
+  position: absolute;
+  top: 38.5%;
 }
 .Home-FV {
   font-family: "Montserrat";
-  font-size: 15px;
-  font-weight: 700;
-  align-self: self-end;
-  margin-right: 300px;
-  margin-top: 20px;
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
 }
