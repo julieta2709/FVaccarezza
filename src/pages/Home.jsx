@@ -9,14 +9,14 @@ const Home = () => {
         <div className="redCircle">
           <RedCircle />
         </div>
+        <h1 className="portfolio">PORTFOLIO.</h1>
         <div className="mainTitle">
           <h2 className="year">2024</h2>
-          <h1 className="portfolio">PORTFOLIO.</h1>
+          <p className="fv">FEDERICO VACCAREZZA</p>
         </div>
         <div className="redCircle">
           <RedCircle />
         </div>
-        <p className="fv">FEDERICO VACCAREZZA</p>
       </div>
     </div>
   );

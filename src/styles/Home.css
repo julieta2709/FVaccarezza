@@ -5,44 +5,52 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .HomePF-Container {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 72.45%;
+  width: 1391px;
   height: 660px;
+  margin: auto;
 }
 .mainTitle {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  height: 513px;
+  justify-content: flex-end;
+  width: 1193px;
+  height: 600px;
+  margin: auto;
 }
 .redCircle {
-  width: 2.58%;
-  height: 10.49%;
+  width: 99px;
+  height: 71px;
   fill: #e52421;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*fonts styles*/
 .year {
   font-family: "Magilio";
   font-size: 600px;
-  line-height: 660px;
   font-weight: normal;
   color: #e52421;
-  position: absolute;
+  line-height: 0.7; 
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 .portfolio {
   font-family: "PP-Hatton";
   font-size: 150px;
-  line-height: 189px;
   font-weight: bold;
   position: absolute;
+  margin-block-end: 0;
+  margin-block-start: 0;
+line-height: 0.5;
 }
 .fv {
   font-family: "Montserrat";
@@ -50,81 +58,3 @@
   font-weight: bold;
   align-self: flex-end;
 }
-/* Property 1=Default */
-/* 
-position: absolute;
-width: 1391px;
-height: 513px;
-left: 20px;
-top: 20px;
- */
-/* PORTFOLIO. */
-
-/* position: absolute;
-left: 10.5%;
-right: 11.21%;
-top: 37.62%;
-bottom: 25.54%;
-
-font-family: "PP Hatton";
-font-style: normal;
-font-weight: 700;
-font-size: 150px;
-line-height: 189px; */
-/* identical to box height */
-
-/* color: #3a3a39; */
-
-/* 2024 */
-
-/* position: absolute;
-left: 6.76%;
-right: 7.48%;
-top: 0%;
-bottom: -28.65%;
-
-font-family: "Magilio";
-font-style: normal;
-font-weight: 400;
-font-size: 600px;
-line-height: 660px; */
-/* identical to box height */
-
-/* color: #e52421; */
-
-/* FEDERICO VACCAREZZA */
-
-/* position: absolute;
-left: 74.91%;
-right: 11.14%;
-top: 103.51%;
-bottom: -7.02%;
-
-font-family: "Montserrat";
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 18px;
-
-color: #3a3a39; */
-
-/* Ellipse 63 */
-/* 
-position: absolute;
-left: 94.9%;
-right: 0%;
-top: 46.2%;
-bottom: 39.96%;
-
-background: #e52421;
-
-/* Ellipse 64 */
-/* 
-position: absolute;
-left: 0%;
-right: 94.9%;
-top: 46.2%;
-bottom: 39.96%;
-
-background: #e52421;
- */
