@@ -10,10 +10,10 @@ const Home = () => {
           <RedCircle />
         </div>
         <h1 className="portfolio">PORTFOLIO.</h1>
-        <div className="mainTitle">
+        {/* <div className="mainTitle"> */}
           <h2 className="year">2024</h2>
           <p className="fv">FEDERICO VACCAREZZA</p>
-        </div>
+        {/* </div> */}
         <div className="redCircle">
           <RedCircle />
         </div>
