@@ -28,21 +28,18 @@
   height: 600px;
   margin: auto;
 } */
-.redCircle {
-  /* width: 99px;
-  height: 71px; */
-  fill: #e52421;
-  /* display: flex;
+.redCircle-container{
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+}
+.redCircle {
+  fill: #e52421;
 }
 .redCircle:first-child {
   grid-column: 1 / span 1;
   grid-row: 1 / span 2;
 }
-/* .mainTitle {
-  grid-column: 2 / span 1;
-} */
 .redCircle:last-child {
   grid-column: 3 / span 1;
   grid-row: 1 / span 2;
@@ -53,12 +50,12 @@
   font-size: calc((min(1193px, 513px) / 4) * 0.8);
   font-weight: normal;
   color: #e52421;
-  line-height: 0.7;
-  margin-block-end: 0;
-  margin-block-start: 0;
-  display: grid;
+  line-height: 1;
+  margin:0;
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
+  justify-self: center;
+  align-self: center;
 }
 .portfolio {
   font-family: "PP-Hatton";
