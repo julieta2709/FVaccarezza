@@ -10,58 +10,121 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  height: 78%;
-  width: 72.5%;
-}
-.RedCircle-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
   position: relative;
-  top: 52%;
+  width: 72.45%;
+  height: 660px;
 }
-.red-circle {
-  width: 5.11%;
-  height: 47.42%;
-}
-.year-container {
-  height: 79.31%;
-  width: 85.7%;
+.mainTitle {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 513px;
 }
-.portfolio-container {
-  display: flex;
-  justify-content: center;
-}
-.fv-container {
-  display: flex;
-  width: 82%;
-  justify-content: flex-end;
+.redCircle {
+  width: 2.58%;
+  height: 10.49%;
+  fill: #e52421;
 }
 /*fonts styles*/
 .year {
   font-family: "Magilio";
-  font-size: 37.5em;
+  font-size: 600px;
+  line-height: 660px;
   font-weight: normal;
   color: #e52421;
-  position: relative;
-  line-height: normal;
-  margin-bottom: auto;
+  position: absolute;
 }
-h1 {
+.portfolio {
   font-family: "PP-Hatton";
-  font-size: 9.38em;
+  font-size: 150px;
+  line-height: 189px;
   font-weight: bold;
   position: absolute;
-  top: 38.5%;
 }
-.Home-FV {
+.fv {
   font-family: "Montserrat";
-  font-size: 1em;
+  font-size: 0.94rem;
   font-weight: bold;
-  position: relative;
+  align-self: flex-end;
 }
+/* Property 1=Default */
+/* 
+position: absolute;
+width: 1391px;
+height: 513px;
+left: 20px;
+top: 20px;
+ */
+/* PORTFOLIO. */
+
+/* position: absolute;
+left: 10.5%;
+right: 11.21%;
+top: 37.62%;
+bottom: 25.54%;
+
+font-family: "PP Hatton";
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 189px; */
+/* identical to box height */
+
+/* color: #3a3a39; */
+
+/* 2024 */
+
+/* position: absolute;
+left: 6.76%;
+right: 7.48%;
+top: 0%;
+bottom: -28.65%;
+
+font-family: "Magilio";
+font-style: normal;
+font-weight: 400;
+font-size: 600px;
+line-height: 660px; */
+/* identical to box height */
+
+/* color: #e52421; */
+
+/* FEDERICO VACCAREZZA */
+
+/* position: absolute;
+left: 74.91%;
+right: 11.14%;
+top: 103.51%;
+bottom: -7.02%;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
+color: #3a3a39; */
+
+/* Ellipse 63 */
+/* 
+position: absolute;
+left: 94.9%;
+right: 0%;
+top: 46.2%;
+bottom: 39.96%;
+
+background: #e52421;
+
+/* Ellipse 64 */
+/* 
+position: absolute;
+left: 0%;
+right: 94.9%;
+top: 46.2%;
+bottom: 39.96%;
+
+background: #e52421;
+ */

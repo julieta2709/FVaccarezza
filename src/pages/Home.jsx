@@ -6,19 +6,17 @@ const Home = () => {
   return (
     <div className="Home-container">
       <div className="HomePF-Container">
-        <div className="RedCircle-container">
+        <div className="redCircle">
           <RedCircle />
+        </div>
+        <div className="mainTitle">
+          <h2 className="year">2024</h2>
+          <h1 className="portfolio">PORTFOLIO.</h1>
+        </div>
+        <div className="redCircle">
           <RedCircle />
         </div>
-        <div className="year-container">
-        <p className="year">2024</p>
-        </div>
-        <div className="portfolio-container">
-        <h1>PORTFOLIO.</h1>
-        </div>
-        <div className="fv-container">
-        <h2 className="Home-FV">FEDERICO VACCAREZZA</h2>
-        </div>
+        <p className="fv">FEDERICO VACCAREZZA</p>
       </div>
     </div>
   );
