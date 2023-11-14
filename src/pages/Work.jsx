@@ -8,7 +8,8 @@ const Work = () => {
         <img className="Work-asterisk" src={asterisk} alt="asteriskk" />
         <h2 className="Work-mainTitle">LATEST WORKS</h2>
       </div>
-      <ul className="Work-List">
+      <ul className="Work-ListContainer">
+        <div className="Work-ListRow1">
         <li className="Work-ListItem">
           <p className="Work-ItemNumber">
             1 <span className="Work-ItemText">FROG BAZAR.</span>
@@ -29,6 +30,8 @@ const Work = () => {
             4 <span className="Work-ItemText">OPAME COLLECTIVE =</span>
           </p>
         </li>
+        </div>
+        <div className="Work-ListRow2">
         <li className="Work-ListItem">
           <p className="Work-ItemNumber">
             5 <span className="Work-ItemText">MICHI BISTRO {`"`}</span>
@@ -54,6 +57,7 @@ const Work = () => {
             9 <span className="Work-ItemText">3D MISC. ART *</span>
           </p>
         </li>
+        </div>
       </ul>
     </div>
   );

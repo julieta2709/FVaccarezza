@@ -57,6 +57,7 @@ h1, .portfolio {
   z-index: 50;
   justify-self: center;
   align-self: center;
+  color: #3A3A39;
 }
 .fv {
   font-family: "Montserrat";

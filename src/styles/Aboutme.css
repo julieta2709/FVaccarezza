@@ -11,10 +11,12 @@
 .Aboutme-intro,
 .Aboutme-name,
 .Aboutme-title,
-.Aboutme-contactTittle,
-.Aboutme-contactMail {
+.Aboutme-contactTittle {
   font-family: PP-Hatton;
   line-height: 0.9;
+}
+.Aboutme-contactMail {
+  font-family: "PP-Hatton-Ultralight";
 }
 .Aboutme-intro {
   font-family: PP-Hatton-Ultralight;
@@ -130,7 +132,11 @@
 .Aboutme-description {
   margin-left: 271px;
 }
-.Aboutme-3, .Aboutme-6, .Aboutme-5, .Aboutme-2, .Aboutme-contact {
+.Aboutme-3,
+.Aboutme-6,
+.Aboutme-5,
+.Aboutme-2,
+.Aboutme-contact {
   display: flex;
   flex-direction: column;
 }
